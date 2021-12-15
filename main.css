@@ -26,8 +26,8 @@ body {
   border-radius: 5px;
   opacity: .5;
   top: 60vh;
-  bottom: 0px;
-  left: 0px;
+  bottom: -750px;
+  left: 200px;
   right: 0px;
   margin: auto;
   transition: .3s;
@@ -46,12 +46,12 @@ body {
   border-radius: 5px;
   opacity: .5;
   top: 60vh;
-  bottom: 0px;
-  left: 0px;
+  bottom: -750px;
+  left: 500px;
   right: 0px;
   margin: auto;
   transition: .3s;
-  vertical-align: middle;
+  padding-left: 50%;
 }
 
 .Type3 {
@@ -66,16 +66,36 @@ body {
   border-radius: 5px;
   opacity: .5;
   top: 60vh;
-  bottom: 0px;
-  left: 0px;
+  bottom: -750px;
+  left: 800px;
   right: 0px;
   margin: auto;
   transition: .3s;
   vertical-align: middle;
 }
 
+.Type4 {
+  position: absolute;
+border: 2px solid white;
+background: transparent;
+font-family: 'Roboto', sans-serif;
+color: white;
+width: 250px;
+height: 50px;
+font-size: 2em;
+border-radius: 5px;
+opacity: .5;
+top: 60vh;
+bottom: -750px;
+left: 1100px;
+right: 0px;
+margin: auto;
+transition: .3s;
+vertical-align: middle;
+}
 
-button{
+
+/*button{
   position: absolute;
   border: 2px solid white;
   background: transparent;
@@ -93,7 +113,7 @@ button{
   margin: auto;
   transition: .3s;
   vertical-align: middle;
-}
+}*/
 
 button:hover{
   border: 2px solid #104F55;
@@ -257,6 +277,10 @@ button:focus{
   50%{top: 0vh; opacity: .8;}
   75%{opacity: 1;}
   100%{top: -100vh; opacity: 0;}
+}
+
+.header--animate {
+  animation: fadeItIn 3s linear both 1s;
 }
 
 .header{
