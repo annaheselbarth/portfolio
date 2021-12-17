@@ -94,6 +94,26 @@ transition: .3s;
 vertical-align: middle;
 }
 
+.Button4 {
+  position: absolute;
+border: 2px solid white;
+background: transparent;
+font-family: 'Roboto', sans-serif;
+color: white;
+width: 250px;
+height: 50px;
+font-size: 2em;
+border-radius: 5px;
+opacity: .5;
+top: 60vh;
+bottom: -750px;
+left: 1100px;
+right: 0px;
+margin: auto;
+transition: .3s;
+vertical-align: middle;
+}
+
 
 /*button{
   position: absolute;
