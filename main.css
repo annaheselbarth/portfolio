@@ -94,7 +94,10 @@ transition: .3s;
 vertical-align: middle;
 }
 
-
+.modal-header {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
 /*button{
   position: absolute;
   border: 2px solid white;
@@ -245,6 +248,21 @@ button:hover{
   transform: scale(0.9);
   left: 85%;
 }
+
+.modal-light {
+  position: absolute;
+  width: 0px;
+  opacity: .75;
+  background-color: #a23982;
+  box-shadow: #a23982 0px 0px 20px 2px;
+  opacity: 0;
+  top: 100vh;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+}
+
 
 button:focus{
   outline: none;
