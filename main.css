@@ -94,6 +94,11 @@ transition: .3s;
 vertical-align: middle;
 }
 
+.modal {
+  font-family: 'Roboto', sans-serif;
+  
+}
+
 .modal-header {
   text-align: center;
   font-family: 'Roboto', sans-serif;
@@ -456,4 +461,10 @@ button:focus{
   -moz-transform: translate(95vw,90vh);
   transform: translate(95vw,90vh);
   transform: translate(95vw,90vh);
+}
+
+.form{
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  padding: 50%;
 }
