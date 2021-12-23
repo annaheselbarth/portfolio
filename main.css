@@ -102,6 +102,13 @@ vertical-align: middle;
   text-align: center;
   font-family: 'Roboto', sans-serif;
 }
+
+.modal-content{
+    -webkit-border-radius: 25px !important;
+    -moz-border-radius: 25px !important;
+    border-radius: 25px !important;
+}
+
 /*button{
   position: absolute;
   border: 2px solid white;

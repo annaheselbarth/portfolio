@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Anna Heselbarth Portfolio</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
@@ -67,8 +68,14 @@
             <h4 class="modal-title">Projects</h4>
           </div>
           <div class="modal-body">
+
+            <
             
-            <a href="https://github.com/annaheselbarth">GitHub Projects</a>
+            <a href="https://github.com/annaheselbarth">
+            <i class="fa fa-github fa-3x">
+              <button class="btn"></button>
+            </i>
+            </a>
             <p>Thanks for checking out my work.</p>
           </div>
           <div class="modal-footer">
@@ -84,8 +91,12 @@
       <div class="modal-dialog">
     
         <!-- Modal content-->
+        
         <div class="modal-content">
+          <div class="modal-light x4"></div>
+          <div class="modal-light x5"></div>
           <div class="modal-light x6"></div>
+          <div class="modal-light x7"></div>
           <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal">&times;</button>
             <h4 class="modal-title">Resume</h4>
@@ -100,7 +111,7 @@
             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
           </div>
         </div>
-    
+        
       </div>
     </div>
    
@@ -118,19 +129,33 @@
           <div class="modal-body">
             <p>Would love to hear from you!</p>
             <form action="https://formspree.io/f/xyyogjla" method="POST">
-              <label>Name:
-                <textarea name="name"></textarea>
-              </label>
-              <label>
-                  Email:
-                  <input type="email" name="_replyto">
-              </label>
-              <label>
-                  Message:
-                  <textarea name="message"></textarea>
-              </label>
-  <!-- your other form fields go here -->
+              <form class="row g-3">
+                <div class="col-md-6">
+                  <label for="inputName4" class="form-label">Name</label>
+                  <input type="name" class="form-control" id="inputName4">
+                </div>
+                <br>
+                <div class="col-md-6">
+                  <label for="inputEmail4" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="inputEmail4">
+                </div>
+                <br>
+                <div class="col-12">
+                  <label for="inputMessage" class="form-label">Your Message</label>
+                  <input type="text" class="form-control" id="inputMessage" placeholder="Hi! Would love to setup an interview.">
+                </div>
+              </form>
+              <br><br>
               <button type="submit">Send</button>
+              <br><br><p>Feel free to send me an email or use the form above annaheselbarth@gmail.com</p>
+              <br>
+              <p>You can also contact me on Linkedin.</p>
+               <a href="https://www.linkedin.com/in/annaheselbarth/">
+                <i class="fa fa-linkedin fa-3x">
+                  <button class="btn"></button>
+                </i>
+                </a>
+
             </form>
           </div>
           <div class="modal-footer">
